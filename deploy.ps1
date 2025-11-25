@@ -101,3 +101,4 @@ Write-Host "2. Deploy to Vercel: https://vercel.com" -ForegroundColor White
 Write-Host "3. Update contact links in src/components/Contact.jsx" -ForegroundColor White
 Write-Host ""
 
+

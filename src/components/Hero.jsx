@@ -28,18 +28,18 @@ export default function Hero() {
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary-400 via-primary-300 to-primary-500 bg-clip-text text-transparent">
-          I build cybersecurity tools<br />and web apps
+          Avi Sachdeva
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-400 mb-8 max-w-3xl mx-auto">
-          Phishing detection & Threat hunting demos
+          Cyber Security and Web Development Practitioner
         </p>
 
         <p className="text-lg text-gray-500 mb-12 max-w-2xl mx-auto leading-relaxed">
-          I'm Avi — a cybersecurity and web development practitioner who builds reproducible tools for detection and testing. 
+          I'm Avi Sachdeva — a 3rd year Computer Science and Engineering student at the SRM University KTR, Chennai, India. I am a cybersecurity and web development practitioner who builds reproducible tools for detection and testing. 
           I combine practical pentesting techniques (Burp Suite, XSS, SQLi) with web engineering (Node.js, React, Tailwind, TensorFlow) 
           to create demos, dashboards, and clear technical writeups. I learn by doing — labs, CTFs, and real projects — 
-          and my current focus is OSCP-level skills and bug bounty readiness.
+          and my current focus is OSCP-level skills and bug bounty readiness. My areas of interest are Cybersecurity, Web Development, and Machine Learning.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

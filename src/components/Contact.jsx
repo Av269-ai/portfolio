@@ -4,19 +4,19 @@ export default function Contact() {
   const links = [
     {
       name: 'GitHub',
-      url: 'https://github.com/yourusername',
+      url: 'https://github.com/Av269-ai',
       icon: Github,
       color: 'hover:text-gray-100'
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/yourusername',
+      url: 'https://www.linkedin.com/in/avi-sachdeva-142a4928b/',
       icon: Linkedin,
       color: 'hover:text-blue-400'
     },
     {
       name: 'Email',
-      url: 'mailto:your.email@example.com',
+      url: 'https://mail.google.com/mail/u/0/#inbox',
       icon: Mail,
       color: 'hover:text-primary-400'
     }

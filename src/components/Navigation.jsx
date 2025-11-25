@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
-import { Link } from 'react-router-dom'
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -20,18 +19,6 @@ export default function Navigation() {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="text-2xl font-bold text-primary-400 hover:text-primary-300 transition-colors">
-            Avi
-          </Link>
-          
-          {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-8">
-            <a href="#projects" className="text-gray-300 hover:text-primary-400 transition-colors">Projects</a>
-            <a href="#skills" className="text-gray-300 hover:text-primary-400 transition-colors">Skills</a>
-            <a href="#labs" className="text-gray-300 hover:text-primary-400 transition-colors">Labs</a>
-            <a href="#contact" className="text-gray-300 hover:text-primary-400 transition-colors">Contact</a>
-          </div>
-
           {/* Mobile Menu Button */}
           <button
             className="md:hidden text-gray-300 hover:text-primary-400"
@@ -39,6 +26,14 @@ export default function Navigation() {
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
+
+          {/* Desktop Menu */}
+          <div className="hidden md:flex space-x-8">
+            <a href="#projects" className="text-gray-300 hover:text-primary-400 transition-colors">Projects</a>
+            <a href="#skills" className="text-gray-300 hover:text-primary-400 transition-colors">Skills</a>
+            <a href="#labs" className="text-gray-300 hover:text-primary-400 transition-colors">Labs</a>
+            <a href="#contact" className="text-gray-300 hover:text-primary-400 transition-colors">Contact</a>
+          </div>
         </div>
       </div>
 
